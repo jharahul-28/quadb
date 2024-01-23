@@ -80,3 +80,16 @@
     margin-top: 10px; /* Add space between the form and "Go Back" link */
   }
   
+  @media (max-width: 600px) {
+    .show-detail-summary-image{
+      flex-direction: column;
+      justify-content: center;
+      gap: 1rem;
+      margin: 0 0.25rem;
+    }
+    .show-details-summary {
+      text-align: justify;
+      margin: 0 1rem 20px 1rem;
+      max-width: 100%;
+    }
+  }
