@@ -1,0 +1,82 @@
+/* ShowDetails.css */
+
+.show-details-container {
+    margin: 0 2rem 1rem 2rem;
+  }
+  
+  .show-details-header {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .show-details-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .show-details-image {
+    height: 50%;
+    width: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .show-details-summary {
+    text-align: justify;
+    margin: 0 1rem 20px 1rem;
+    max-width: 50%;
+  }
+
+  .show-detail-summary-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+    margin: 0 2rem;
+  }
+  
+  .booking-form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 0 1rem 1rem 1rem;
+  }
+  
+  .booking-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .booking-form input {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .booking-form button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .booking-form button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Additional styling for buttons */
+  .show-details-content button {
+    margin-top: 10px; /* Add space between the form and buttons */
+  }
+  
+  .show-details-content a {
+    margin-top: 10px; /* Add space between the form and "Go Back" link */
+  }
+  
