@@ -1,8 +1,6 @@
-// ShowDetails.jsx
-
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import './ShowDetails.css'; // Import the CSS file for styling
+import './ShowDetails.css'; 
 
 const ShowDetails = () => {
   const { showId } = useParams();
@@ -41,20 +39,12 @@ const ShowDetails = () => {
 
   const handleFormSubmit = (event) => {
     event.preventDefault();
-
-    // Save user details to local storage
     localStorage.setItem('userData', JSON.stringify(formData));
-
-    // Add your logic to handle form data
     console.log('Form submitted:', formData);
-
-    // Clear the form data
     setFormData({
       name: '',
       numberOfTickets: 1,
     });
-
-    // Hide the booking form
     setBookingFormVisible(false);
   };
 

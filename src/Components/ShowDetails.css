@@ -73,11 +73,11 @@
   
   /* Additional styling for buttons */
   .show-details-content button {
-    margin-top: 10px; /* Add space between the form and buttons */
+    margin-top: 10px;
   }
   
   .show-details-content a {
-    margin-top: 10px; /* Add space between the form and "Go Back" link */
+    margin-top: 10px; 
   }
   
   @media (max-width: 600px) {
